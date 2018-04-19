@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ModifyIPDlg - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\shinbo\AppData\Local\Temp\RSPDC1C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/ModifyIPDlg.pdb" /debug /machine:I386 /out:"Debug/ModifyIPDlg.exe" /pdbtype:sept 
+.\Debug\ModifyIPDlg.obj
+]
+Creating command line "link.exe @C:\Users\shinbo\AppData\Local\Temp\RSPDC1C.tmp"
+<h3>Output Window</h3>
+Linking...
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "public: virtual __thiscall CDBData::~CDBData(void)" (??1CDBData@@UAE@XZ)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "public: __thiscall CDBData::CDBData(void)" (??0CDBData@@QAE@XZ)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall CDBData::DisConnect(void)" (?DisConnect@CDBData@@QAEHXZ)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl ModifyConfigThread(void *)" (?ModifyConfigThread@@YAIPAX@Z)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall CDBData::GetAllDEUIDData(class CPtrArray &)" (?GetAllDEUIDData@CDBData@@QAEHAAVCPtrArray@@@Z)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall CDBData::Connect(class CString,class CString,class CString,class CString)" (?Connect@CDBData@@QAEHVCString@@000@Z)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl ConfigSocketThread(void *)" (?ConfigSocketThread@@YAIPAX@Z)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall CDBData::GetTrackData(class CPtrArray &)" (?GetTrackData@CDBData@@QAEHAAVCPtrArray@@@Z)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "int __cdecl CreateMultiFolder(class CString)" (?CreateMultiFolder@@YAHVCString@@@Z)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "class CString __cdecl GetModulePath(void)" (?GetModulePath@@YA?AVCString@@XZ)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall CDBData::ModifyUserPsd(void)" (?ModifyUserPsd@CDBData@@QAEHXZ)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "int __cdecl LoadDataFromFile(class CStringArray *,class CString)" (?LoadDataFromFile@@YAHPAVCStringArray@@VCString@@@Z)
+ModifyIPDlg.obj : error LNK2001: unresolved external symbol "unsigned int __cdecl ModifyFileConfigThread(void *)" (?ModifyFileConfigThread@@YAIPAX@Z)
+msvcrtd.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
+Debug/ModifyIPDlg.exe : fatal error LNK1120: 14 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+ModifyIPDlg.exe - 15 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
